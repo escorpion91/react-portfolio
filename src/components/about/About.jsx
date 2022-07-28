@@ -38,9 +38,9 @@ const about = () => {
             </article>
           </div>
           <p>
-            I'm a web developer based in Guayaquil, Ecuador. I'm also very
-            passionate about programing and figuring out practical and creative
-            ways to solve problems.
+            I'm a web developer based in Guayaquil, Ecuador. I'm very passionate
+            about building websites, programing and figuring out practical and
+            creative ways to solve problems. Currently learning Django.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
