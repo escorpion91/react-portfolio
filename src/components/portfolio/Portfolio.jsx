@@ -4,6 +4,7 @@ import IMG1 from '../../assets/yolisimo.jpeg';
 import IMG2 from '../../assets/fnmnWebsite.png';
 import IMG3 from '../../assets/Cetepe.png';
 import IMG4 from '../../assets/mefis.png';
+import IMG5 from '../../assets/weatherApp.png';
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,7 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>Random Advice Generator</h3>
+          <h5>API Request/React</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/escorpion91/random-advice-generator"
@@ -40,6 +42,7 @@ const Portfolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>Fenómeno Menófeno Website</h3>
+          <h5>ReactJS</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/escorpion91/random-advice-generator"
@@ -60,9 +63,34 @@ const Portfolio = () => {
         {/* FIN DE UN PROYECTO */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Weather App</h3>
+          <h5>API Request/JavaScript</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/escorpion91/weather-app"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://lively-platypus-0ff2c6.netlify.app/"
+              className="btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        {/* FIN DE UN PROYECTO */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
           <h3>Cetepe Website</h3>
+          <h5>HTML/CSS/JavaScript</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/duranduranduran/Cetepe-webpage"
@@ -82,6 +110,7 @@ const Portfolio = () => {
             <img src={IMG4} alt="" />
           </div>
           <h3>Photography Website</h3>
+          <h5>HTML/CSS/JavaScript</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/escorpion91/random-advice-generator"
