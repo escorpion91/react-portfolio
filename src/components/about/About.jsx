@@ -12,7 +12,8 @@ const about = () => {
       <HeaderSocials />
       <h5 className="name">JUAN MANUEL ENDERICA</h5>
       {/* <h2>Web Developer</h2> */}
-      <h2>Front-end Dev</h2>
+      {/* <h2>Front-end Dev</h2> */}
+      <h2>Full Stack Dev</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -38,9 +39,10 @@ const about = () => {
             </article>
           </div>
           <p>
-            I'm a web developer based in Guayaquil, Ecuador. I'm very passionate
-            about building websites, programing and figuring out practical and
-            creative ways to solve problems. Currently learning Django.
+            I'm a software developer based in Guayaquil, Ecuador. I'm very
+            passionate about building websites, programing and figuring out
+            practical and creative ways to solve problems. Currently learning
+            MySQL and Django.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
