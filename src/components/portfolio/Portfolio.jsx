@@ -5,6 +5,7 @@ import IMG2 from '../../assets/fnmnWebsite.png';
 import IMG3 from '../../assets/Cetepe.png';
 import IMG4 from '../../assets/mefis.png';
 import IMG5 from '../../assets/weatherApp.png';
+import IMG6 from '../../assets/giphy.png';
 
 const Portfolio = () => {
   return (
@@ -63,6 +64,30 @@ const Portfolio = () => {
         {/* FIN DE UN PROYECTO */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Giphy App</h3>
+          <h5>API Request/React</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/escorpion91/giphy-api-react-app"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://curious-cajeta-8bda19.netlify.app/"
+              className="btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        {/* FIN DE UN PROYECTO */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
           <h3>Weather App</h3>
@@ -77,6 +102,31 @@ const Portfolio = () => {
             </a>
             <a
               href="https://lively-platypus-0ff2c6.netlify.app/"
+              className="btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        {/* FIN DE UN PROYECTO */}
+        {/* FIN DE UN PROYECTO */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Photography Website</h3>
+          <h5>HTML/CSS/JavaScript</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/escorpion91/random-advice-generator"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://cosmic-conkies-36eddf.netlify.app/"
               className="btn"
               target="_blank"
             >
@@ -104,31 +154,6 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        {/* FIN DE UN PROYECTO */}
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Photography Website</h3>
-          <h5>HTML/CSS/JavaScript</h5>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/escorpion91/random-advice-generator"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://cosmic-conkies-36eddf.netlify.app/"
-              className="btn"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        {/* FIN DE UN PROYECTO */}
       </div>
     </section>
   );
