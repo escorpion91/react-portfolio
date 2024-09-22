@@ -13,7 +13,7 @@ const about = () => {
       <h5 className="name">JUAN MANUEL ENDERICA</h5>
       {/* <h2>Web Developer</h2> */}
       {/* <h2>Front-end Dev</h2> */}
-      <h2>Full Stack Dev</h2>
+      <h2>WordPress & Python Dev</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -22,11 +22,11 @@ const about = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+{/*             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>2nd Year Software Development student</small>
-            </article>
+            </article> */}
             {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
@@ -35,7 +35,7 @@ const about = () => {
             <article className="about__card">
               <AiTwotoneFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>React, API Rest, HTML, CSS & Js</small>
+              <small>WordPress, React, API Rest, HTML, CSS, Js & Python</small>
             </article>
           </div>
           <p>
