@@ -62,6 +62,22 @@ const Portfolio = () => {
           </div>
         </article>
         {/* FIN DE UN PROYECTO */}
+                <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>Python Daily Sales Report</h3>
+          <h5>Various Python Libraries</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://juanmanuelenderica.carrd.co/#one"
+              className="btn"
+              target="_blank"
+            >
+              Code Explanation
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
@@ -135,22 +151,6 @@ const Portfolio = () => {
           </div>
         </article>
         {/* FIN DE UN PROYECTO */}
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Python Daily Sales Report</h3>
-          <h5>Various Python Librariest</h5>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://juanmanuelenderica.carrd.co/#one"
-              className="btn"
-              target="_blank"
-            >
-              Code Explanation
-            </a>
-          </div>
-        </article>
       </div>
     </section>
   );
