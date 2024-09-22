@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/yolisimo.jpeg';
-import IMG2 from '../../assets/fnmnWebsite.png';
+import IMG2 from '../../assets/Botica.png';
 import IMG3 from '../../assets/Cetepe.png';
 import IMG4 from '../../assets/mefis.png';
 import IMG5 from '../../assets/weatherApp.png';
@@ -42,18 +42,18 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Fenómeno Menófeno Website</h3>
-          <h5>ReactJS</h5>
+          <h3>Botica Barcia</h3>
+          <h5>Wordpress</h5>
           <div className="portfolio__item-cta">
-            <a
+{/*             <a
               href="https://github.com/escorpion91/random-advice-generator"
               className="btn"
               target="_blank"
             >
               Github
-            </a>
+            </a> */}
             <a
-              href="https://www.fenomenomenofeno.com/"
+              href="https://boticabarcia.com/"
               className="btn"
               target="_blank"
             >
