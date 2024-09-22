@@ -20,8 +20,8 @@ const about = () => {
             <img src={ME} alt="About Image" />
           </div>
         </div>
-{/*         <div className="about__content"> */}
-{/*           <div className="about__cards"> */}
+        <div className="about__content">
+          <div className="about__cards">
 {/*             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
@@ -32,12 +32,12 @@ const about = () => {
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article> */}
-{/*             <article className="about__card">
+            <article className="about__card">
               <AiTwotoneFolderOpen className="about__icon" />
               <h5>Projects</h5>
               <small>WordPress, React, API Rest, HTML, CSS, Js & Python</small>
-            </article> */}
-{/*           </div> */}
+            </article>
+          </div>
           <p>
             A passionate Wordpress developer/Python coder. Very eager to build things, whether in web development (HTML, CSS, JS, PHP and WordPress mainly) or solving tasks with Python.
             I’m always opened to learning new things and take on new challenges.
