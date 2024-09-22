@@ -36,17 +36,17 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Wordpress</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
-            <article className="experience__details">
+{/*             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
                 <h4>Tailwind</h4>
                 {/* <small className="text-light">Experienced</small> */}
-              </div>
-            </article>
+{/*               </div> */}
+{/*             </article> */} */}
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
@@ -63,7 +63,7 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>Node Js</h4>
+                <h4>Rest API</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
@@ -97,7 +97,7 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>Django</h4>
+                <h4>PHP</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
