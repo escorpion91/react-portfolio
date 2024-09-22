@@ -2,7 +2,7 @@ import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/yolisimo.jpeg';
 import IMG2 from '../../assets/Botica.png';
-import IMG3 from '../../assets/Cetepe.png';
+import IMG3 from '../../assets/python.png';
 import IMG4 from '../../assets/mefis.png';
 import IMG5 from '../../assets/weatherApp.png';
 import IMG6 from '../../assets/giphy.png';
@@ -139,18 +139,15 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Cetepe Website</h3>
-          <h5>HTML/CSS/JavaScript</h5>
+          <h3>Python Daily Sales Report</h3>
+          <h5>Various Python Librariest</h5>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/duranduranduran/Cetepe-webpage"
+              href="https://juanmanuelenderica.carrd.co/#one"
               className="btn"
               target="_blank"
             >
-              Github
-            </a>
-            <a href="https://cetepe.org/" className="btn" target="_blank">
-              Live Demo
+              Code Explanation
             </a>
           </div>
         </article>
