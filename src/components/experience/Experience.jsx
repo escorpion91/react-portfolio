@@ -46,7 +46,7 @@ const experience = () => {
                 <h4>Tailwind</h4>
                 {/* <small className="text-light">Experienced</small> */}
 {/*               </div> */}
-{/*             </article> */} */}
+{/*             </article> */} 
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
