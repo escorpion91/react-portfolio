@@ -39,10 +39,8 @@ const about = () => {
             </article>
           </div>
           <p>
-            I'm a software developer based in Guayaquil, Ecuador. I'm very
-            passionate about building websites, programing and figuring out
-            practical and creative ways to solve problems. Currently learning
-            MySQL and Django.
+            A passionate Wordpress developer/Python coder. Very eager to build things, whether in web development (HTML, CSS, JS, PHP and WordPress mainly) or solving tasks with Python.
+            I’m always opened to learning new things and take on new challenges.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
