@@ -7,6 +7,7 @@ import IMG4 from '../../assets/mefis.png';
 import IMG5 from '../../assets/weatherApp.png';
 import IMG6 from '../../assets/giphy.png';
 import IMG7 from '../../assets/BerryApp.png';
+import IMG8 from '../../assets/BerryApp2.png';
 
 const Portfolio = () => {
   return (
@@ -81,7 +82,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG7} alt="" />
+            <img src={IMG8} alt="" />
           </div>
           <h3>Pokémon 3rd gen Berry Finder App</h3>
           <h5>React</h5>
