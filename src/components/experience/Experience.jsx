@@ -15,21 +15,21 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>HTML</h4>
+                <h4>React</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>CSS</h4>
+                <h4>React Three Fiber</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>Three Js</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
@@ -50,7 +50,7 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>React</h4>
+                <h4>HTML, CSS, Tailwind and JavaScript</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
@@ -63,7 +63,7 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>Rest API</h4>
+                <h4>Django</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
@@ -83,7 +83,7 @@ const experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icons" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>REST API</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
