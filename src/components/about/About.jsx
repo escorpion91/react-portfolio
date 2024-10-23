@@ -39,8 +39,8 @@ const about = () => {
             </article>
           </div> */}
           <p>
-            A passionate Wordpress developer/Python coder. Very eager to build things, whether in web development (HTML, CSS, JS, PHP and WordPress mainly) or solving tasks with Python.
-            I’m always opened to learning new things and take on new challenges.
+            A passionate Web developer/Python coder. Very eager to build things, whether in web development (React, Django and WordPress mainly) or solving tasks with Python.
+            I’m always opened to learning new things and take on new challenges. Currently learning ThreeJs and React Three Fiber.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
