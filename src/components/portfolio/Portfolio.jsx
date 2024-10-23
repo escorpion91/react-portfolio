@@ -132,7 +132,7 @@ const Portfolio = () => {
         {/* FIN DE UN PROYECTO */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG9} alt="" />
           </div>
           <h3>This Portfolio Website</h3>
           <h5>React</h5>
