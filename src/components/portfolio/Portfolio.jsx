@@ -8,6 +8,8 @@ import IMG5 from '../../assets/weatherApp.png';
 import IMG6 from '../../assets/giphy.png';
 import IMG7 from '../../assets/BerryApp.png';
 import IMG8 from '../../assets/BerryApp2.png';
+import IMG9 from '../../assets/PortfolioPhoto.png';
+
 
 const Portfolio = () => {
   return (
@@ -128,6 +130,22 @@ const Portfolio = () => {
           </div>
         </article>
         {/* FIN DE UN PROYECTO */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>This Portfolio Website</h3>
+          <h5>React</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/escorpion91/react-portfolio"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
