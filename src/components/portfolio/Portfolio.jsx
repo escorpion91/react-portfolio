@@ -82,6 +82,30 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
+          <h3>Pokémon 3rd gen Berry Finder App</h3>
+          <h5>React</h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/escorpion91/berry_finder"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://berryfinder.netlify.app/"
+              className="btn"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        {/* FIN DE UN PROYECTO */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
           <h3>Giphy App</h3>
           <h5>API Request/React</h5>
           <div className="portfolio__item-cta">
