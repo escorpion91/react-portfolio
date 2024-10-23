@@ -13,7 +13,7 @@ const about = () => {
       <h5 className="name">JUAN MANUEL ENDERICA</h5>
       {/* <h2>Web Developer</h2> */}
       {/* <h2>Front-end Dev</h2> */}
-      <h2>WordPress & Python Dev</h2>
+      <h2>React, Django and Python Dev</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
