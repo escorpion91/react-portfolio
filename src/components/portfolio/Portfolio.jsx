@@ -179,7 +179,7 @@ const Portfolio = () => {
           <h5>HTML/CSS/JavaScript</h5>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/escorpion91/random-advice-generator"
+              href="https://github.com/escorpion91/mefis-portfolio"
               className="btn"
               target="_blank"
             >
